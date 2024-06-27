@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--自动添加CSS-->
+{{ if .Site.Params.customCSS }}
+{{ $style := resources.Match "css/**.css" | resources.Concat "custom.css" | minify | fingerprint }}
+
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ end }}
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}"
+ 
+>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ site.Title }}</title>
+</head>
+<body class="bd">
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+ 
+  </footer>
+</body>
+</html>

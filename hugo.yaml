@@ -1,0 +1,6 @@
+baseURL : https://example.org/
+languageCode : zh-cn
+title : QuesoX
+
+params:
+  customCSS: true

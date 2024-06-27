@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+
+
+
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><link rel="stylesheet" href="http://localhost:1313/custom.min.dc7f31f2b6fe0ed61b4cf8691d85622b8d808c6876091120477a498e6907d470.css" integrity="sha256-3H8x8rb&#43;DtYbTPhpHYViK42AjGh2CREgR3pJjmkH1HA=" media="screen">
+
+<html lang="zh-cn" dir="ltr"
+ 
+>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Ubuntu安装记录 - QuesoX</title>
+</head>
+<body class="bd">
+
+  <main>
+    
+
+
+<div>
+    <h1 class="home-htext">Ubuntu安装记录</h1>
+
+    <form name="input"
+    action="/blog" method="get" class="right">
+    <input type="submit" value="Back" class="single-btn-back">
+    </form>
+
+</div>
+
+<div class="single-time">
+    
+
+    
+    
+    
+    <time datetime="0001-01-01" >January 1, 1</time>
+
+    
+
+</div>
+
+
+
+<div>
+    <img src=http://localhost:1313/ubuntu.png class="single-img">
+    
+</div>
+
+<div class="single-content">
+    <h2 id="前言">前言</h2>
+<blockquote>
+<p>本文为了  <em><strong>防止解决的问题在忘记解决方案时再出现</strong></em>  而撰写。</p>
+</blockquote>
+<h3 id="准备措施">准备措施</h3>
+<p>这里采用 Ubuntu 23.10 Desktop 镜像版本，提供了图形化页面，可以根据自己的需求进行更换。</p>
+<ul>
+<li>
+<p><strong>拔掉要安装设备的网线。</strong></p>
+</li>
+<li>
+<p><strong>一个 U盘（U盘安装），大于等于 8G</strong></p>
+</li>
+<li>
+<p><a href="https://ubuntu.com/download/alternative-downloads">最新版 Ubuntu 镜像（BT下载）</a></p>
+</li>
+<li>
+<p><a href="https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/17_0">VMWare（虚拟机安装）</a></p>
+</li>
+<li>
+<p><a href="http://nigger.eastasia.cloudapp.azure.com:5244/d/Onedrive/System%20Backup/rufus-4.3.exe?sign=HhYnX8D6tmuLhwgMqWoh4sOSGsHBsACNGEA1HPt_H5A=:0">Rufus 4.3 (U盘烧录)</a></p>
+</li>
+</ul>
+<h3 id="安装方式">安装方式：</h3>
+<ul>
+<li>烧录 ISO U盘启动安装进硬盘</li>
+<li>采用虚拟机直接安装进移动硬盘（Linux to Go）</li>
+</ul>
+<hr>
+<h3 id="虚拟机安装前置步骤">虚拟机安装前置步骤</h3>
+<p>打开 VMware</p>
+<pre tabindex="0"><code>
+1. 创建新虚拟机 -&gt; 稍后安装系统 -&gt; 选择Linux 版本
+    -&gt; 选择位置 -&gt; 一直默认到自定义硬件
+	
+2. CD / DVD -&gt; 选择使用ISO映像文件 ，选中你的 ISO
+	
+3. USB 控制器  -&gt; 兼容性 改为 3.1
+</code></pre><p>完成，启动虚拟机。</p>
+<hr>
+<h3 id="u盘安装前置步骤">U盘安装前置步骤</h3>
+<p>使用 Refus 刷入镜像进入 U盘 ， 调整 BIOS 为 U盘 启动</p>
+<h3 id="进入-ubuntu-镜像烧录">进入 Ubuntu 镜像烧录</h3>
+<p>进入镜像或者U盘启动后</p>
+<pre tabindex="0"><code>Try or Install Unbuntu
+	
+    1. 选择语言为中文
+	
+    2. Install Ubuntu
+	
+    3. 选择不连接网络
+	
+    4. 默认版本，其他不勾选
+</code></pre><ul>
+<li>
+<h4 id="选择自定义分区-manual-partitioning">选择自定义分区 （Manual partitioning）</h4>
+</li>
+</ul>
+<p>点击你要的 U盘 新建分区表</p>
+<pre tabindex="0"><code>1. 创建一个主分区 
+
+  - 大小自定义 
+  - 文件格式选择 Ex4
+  - 挂载目录选择 /
+  
+2. 再创建一个 Swap 分区 
+
+  - 大小可以选择跟你内存相同
+  - 用于交换内存
+  - 挂载目录选择Swap
+  
+3. 选择引导设备为你的硬盘或 U盘 ，安装进哪里就选哪里。
+</code></pre><p>下一步开始安装，记得断网不然会无法安装</p>
+<p>装好后根据提示拔掉U盘，重启电脑即可</p>
+
+</div>
+
+<div class="single-tag-div">
+     
+    <span class="single-tag"  > #Linux</span>
+     
+    <span class="single-tag"  > #Guide</span>
+    
+
+  </div>
+
+
+
+  </main>
+  <footer>
+ 
+  </footer>
+</body>
+</html>

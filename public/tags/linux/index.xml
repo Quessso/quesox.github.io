@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on QuesoX</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on QuesoX</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/blog/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/test/</guid>
+      <description>前言 本文为了 防止解决的问题在忘记解决方案时再出现 而撰写。&#xA;准备措施 这里采用 Ubuntu 23.10 Desktop 镜像版本，提供了图形化页面，可以根据自己的需求进行更换。&#xA;拔掉要安装设备的网线。&#xA;一个 U盘（U盘安装），大于等于 8G&#xA;最新版 Ubuntu 镜像（BT下载）&#xA;VMWare（虚拟机安装）&#xA;Rufus 4.3 (U盘烧录)&#xA;安装方式： 烧录 ISO U盘启动安装进硬盘 采用虚拟机直接安装进移动硬盘（Linux to Go） 虚拟机安装前置步骤 打开 VMware&#xA;1. 创建新虚拟机 -&amp;gt; 稍后安装系统 -&amp;gt; 选择Linux 版本 -&amp;gt; 选择位置 -&amp;gt; 一直默认到自定义硬件 2. CD / DVD -&amp;gt; 选择使用ISO映像文件 ，选中你的 ISO 3. USB 控制器 -&amp;gt; 兼容性 改为 3.1 完成，启动虚拟机。&#xA;U盘安装前置步骤 使用 Refus 刷入镜像进入 U盘 ， 调整 BIOS 为 U盘 启动&#xA;进入 Ubuntu 镜像烧录 进入镜像或者U盘启动后</description>
+    </item>
+  </channel>
+</rss>

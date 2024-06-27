@@ -1,0 +1,41 @@
+
+.hd-title{
+
+    
+    color: var(--logo-color);
+    font-size: 32px;
+ 
+
+}
+
+
+.hd-wrapper{
+    
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    align-items: center;
+
+}
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+    position: absolute;
+    right: 1rem;
+
+}
+
+.hd-menu-link {
+    font-size: 16px;
+    color: var(--h-color);
+    
+    padding-right: 16px;
+    position: relative;
+    transition: all .4s ease-in-out;
+}
+nav .a:hover {
+
+    color: var(--type-color);
+}
+

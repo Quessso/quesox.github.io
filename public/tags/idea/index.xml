@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Idea on QuesoX</title>
+    <link>http://localhost:1313/tags/idea/</link>
+    <description>Recent content in Idea on QuesoX</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 28 Jun 2024 05:43:26 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/idea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>处理问题的最佳方式</title>
+      <link>http://localhost:1313/blog/%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98%E7%9A%84%E6%9C%80%E4%BD%B3%E6%96%B9%E5%BC%8F/</link>
+      <pubDate>Fri, 28 Jun 2024 05:43:26 +0800</pubDate>
+      <guid>http://localhost:1313/blog/%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98%E7%9A%84%E6%9C%80%E4%BD%B3%E6%96%B9%E5%BC%8F/</guid>
+      <description>无法独立解决自己的大部分事情的人，往往都得不到成功。&#xA;提出问题 抽象出来问题的本质，具体在什么地方出现&#xA;描述清楚你的环境，你所在的环境状态是什么，你在做什么的时候出现了问题&#xA;你要想的解决结果，和你所想使用的解决方式&#xA;我现在在一个商场，我想吃麦当劳，我不知道麦当劳在哪，我想走最少的路去找到麦当劳。 分析问题 拆解得到我们现有的信息和资源&#xA;我的位置 拟定出来解决步骤，并且列出来需要什么：&#xA;找到麦当劳在哪 找到商场的地图 找到最短路径 抽象出要解决问题所需要的信息和资源&#xA;麦当劳的位置 商场的地图 计算出来最短路径 解决问题 获取到信息与资源&#xA;询问别人麦当劳的位置 找到商场的地图 拟定解决方案&#xA;构建从我的位置到麦当劳位置的路径 选取最短路径 吃上麦当劳</description>
+    </item>
+  </channel>
+</rss>

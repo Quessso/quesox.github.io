@@ -1,0 +1,55 @@
+
+{{ define "main" }}
+
+<header>
+    
+  {{- partial "header.html" . }}
+
+</header>
+  <!--首页-->
+
+  <!--首页-->
+  <h1 class="home-htext">你好</h1>
+
+  <div class="home-first"  >
+  <div class="home-typer-ct">
+
+    <p  class="home-typer"> 一次富有变化性的尝试。  
+      <div class="aurora">
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+      <div class="aurora__item"></div>
+    </div>
+  </p>
+  </div>
+ 
+
+  <img src={{ "draft.png" | absURL }} alt="" 
+  width="280"
+  height="210" 
+  class="home-image"
+  />
+
+  </div>
+
+  <h1 class="home-htext"><b>Recents</b></h1>
+  {{ range site.Sections }}
+  {{ range .Pages }}
+
+    <h2 class="home-a" >
+      <a class="home-a" href="{{ .RelPermalink }}" class="home-ntext">
+      {{ .LinkTitle }}
+      </a>
+      </h2>
+
+  {{ end }}
+  {{ end }}
+
+
+  <form name="input"
+  action="/blog" method="get">
+  <input type="submit" value="View More" class="home-button">
+  </form>
+{{ end }}
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VPS on QuesoX</title>
+    <link>http://localhost:1313/tags/vps/</link>
+    <description>Recent content in VPS on QuesoX</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 28 Jun 2024 05:09:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>尝试白嫖云VPS一年</title>
+      <link>http://localhost:1313/blog/%E5%B0%9D%E8%AF%95%E7%99%BD%E5%AB%96%E4%BA%91vps%E4%B8%80%E5%B9%B4/</link>
+      <pubDate>Fri, 28 Jun 2024 05:09:04 +0800</pubDate>
+      <guid>http://localhost:1313/blog/%E5%B0%9D%E8%AF%95%E7%99%BD%E5%AB%96%E4%BA%91vps%E4%B8%80%E5%B9%B4/</guid>
+      <description>前言 由于服务器年底即将过期，且Azure小水管无法满足我的学习鉴赏人体美学，故尝试别的 VPS ，发现这个亚马逊云还挺好。&#xA;免费一年，1 核 1G + 30GB SSD ，每月750小时使用时间和每月100 GB 流量&#xA;Speedtest 实测香港地区上行能到400Mbps ！！！！&#xA;如何申请试用一年？ 前提 双币卡Visa，Master，运通，银联 （个人实测部分虚拟卡可用，一卡可以多账号） 虚拟地址生成器 ，使用你卡所在地的生产器生成地址 一个手机号码，国内可用，最好国外，需要接收验证码 邮箱，不能是 QQ 与126 邮箱，反而 Foxmail 可以&amp;hellip; 重要提示 不要挂梯子，使用真实 IP 注册 ，一个 IP 只注册一个号 ，失败了换 IP （如手机热点） 使用浏览器无痕模式（ INPRIVATE），邮箱也需要在里面登录 地址全英文，可以搜中文名然后查英文 如 大浦街 -&amp;gt; Dapu Road 注册步骤 1.进入 亚马逊云官网 （AWS） ，创建账户免费试用&#xA;看你个人需求选国外还是国内VPS ，建议选择国外&#xA;2.填写信息验证邮件，如果没收到查看垃圾箱&#xA;3.填写完密码到账单地址填写（重要）&#xA;选个人 名字尽量英文名 电话号码可以填自己的 地址，搜索你的卡的归属国，地址生成器，我的是香港的，照着填进去，一定得是英文的，可以搜索国家+街道+英文找到英文名，邮政编码也要对 4.填完到信用卡（预付款验证环节）&#xA;-填写你的信用卡信息&#xA;-姓名填英文名&#xA;5.验证手机号填自己的&#xA;6.验证后选择基本支持，激活需要等一会才能用EC2&#xA;7.登陆进入控制台，记得在右上角这里更改你的地区，你想在那创建就使用哪个地区（可以点击管理区域启用未使用的区域）&#xA;8.注册成功后还不算成功，点击EC2会显示这个，需要审核30分钟（大几率通过当你邮箱收到这封邮件后）&#xA;注册完毕&#xA;如何创建免费的 EC2 实例 他提供了一年与三个月的免费试用，那肯定选一年的 EC2 啊！</description>
+    </item>
+  </channel>
+</rss>

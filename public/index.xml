@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QuesoX</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on QuesoX</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 28 May 2024 01:13:29 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 28 May 2024 01:13:29 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>我的私人博客 Su@QuesoX.com</description>
+    </item>
+    <item>
+      <title>处理问题的最佳方式</title>
+      <link>http://localhost:1313/blog/%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98%E7%9A%84%E6%9C%80%E4%BD%B3%E6%96%B9%E5%BC%8F/</link>
+      <pubDate>Wed, 15 May 2024 05:43:26 +0800</pubDate>
+      <guid>http://localhost:1313/blog/%E5%A4%84%E7%90%86%E9%97%AE%E9%A2%98%E7%9A%84%E6%9C%80%E4%BD%B3%E6%96%B9%E5%BC%8F/</guid>
+      <description>无法独立解决自己的大部分事情的人，往往都得不到成功。&#xA;提出问题 抽象出来问题的本质，具体在什么地方出现&#xA;描述清楚你的环境，你所在的环境状态是什么，你在做什么的时候出现了问题&#xA;你要想的解决结果，和你所想使用的解决方式&#xA;我现在在一个商场，我想吃麦当劳，我不知道麦当劳在哪，我想走最少的路去找到麦当劳。 分析问题 拆解得到我们现有的信息和资源&#xA;我的位置 拟定出来解决步骤，并且列出来需要什么：&#xA;找到麦当劳在哪 找到商场的地图 找到最短路径 抽象出要解决问题所需要的信息和资源&#xA;麦当劳的位置 商场的地图 计算出来最短路径 解决问题 获取到信息与资源&#xA;询问别人麦当劳的位置 找到商场的地图 拟定解决方案&#xA;构建从我的位置到麦当劳位置的路径 选取最短路径 吃上麦当劳</description>
+    </item>
+    <item>
+      <title>尝试白嫖云VPS一年</title>
+      <link>http://localhost:1313/blog/%E5%B0%9D%E8%AF%95%E7%99%BD%E5%AB%96%E4%BA%91vps%E4%B8%80%E5%B9%B4/</link>
+      <pubDate>Sun, 12 May 2024 05:09:04 +0800</pubDate>
+      <guid>http://localhost:1313/blog/%E5%B0%9D%E8%AF%95%E7%99%BD%E5%AB%96%E4%BA%91vps%E4%B8%80%E5%B9%B4/</guid>
+      <description>前言 由于服务器年底即将过期，且Azure小水管无法满足我的学习鉴赏人体美学，故尝试别的 VPS ，发现这个亚马逊云还挺好。&#xA;免费一年，1 核 1G + 30GB SSD ，每月750小时使用时间和每月100 GB 流量&#xA;Speedtest 实测香港地区上行能到400Mbps ！！！！&#xA;如何申请试用一年？ 前提 双币卡Visa，Master，运通，银联 （个人实测部分虚拟卡可用，一卡可以多账号） 虚拟地址生成器 ，使用你卡所在地的生产器生成地址 一个手机号码，国内可用，最好国外，需要接收验证码 邮箱，不能是 QQ 与126 邮箱，反而 Foxmail 可以&amp;hellip; 重要提示 不要挂梯子，使用真实 IP 注册 ，一个 IP 只注册一个号 ，失败了换 IP （如手机热点） 使用浏览器无痕模式（ INPRIVATE），邮箱也需要在里面登录 地址全英文，可以搜中文名然后查英文 如 大浦街 -&amp;gt; Dapu Road 注册步骤 1.进入 亚马逊云官网 （AWS） ，创建账户免费试用&#xA;看你个人需求选国外还是国内VPS ，建议选择国外&#xA;2.填写信息验证邮件，如果没收到查看垃圾箱&#xA;3.填写完密码到账单地址填写（重要）&#xA;选个人 名字尽量英文名 电话号码可以填自己的 地址，搜索你的卡的归属国，地址生成器，我的是香港的，照着填进去，一定得是英文的，可以搜索国家+街道+英文找到英文名，邮政编码也要对 4.填完到信用卡（预付款验证环节）&#xA;-填写你的信用卡信息&#xA;-姓名填英文名&#xA;5.验证手机号填自己的&#xA;6.验证后选择基本支持，激活需要等一会才能用EC2&#xA;7.登陆进入控制台，记得在右上角这里更改你的地区，你想在那创建就使用哪个地区（可以点击管理区域启用未使用的区域）&#xA;8.注册成功后还不算成功，点击EC2会显示这个，需要审核30分钟（大几率通过当你邮箱收到这封邮件后）&#xA;注册完毕&#xA;如何创建免费的 EC2 实例 他提供了一年与三个月的免费试用，那肯定选一年的 EC2 啊！</description>
+    </item>
+    <item>
+      <title>电子洁癖</title>
+      <link>http://localhost:1313/blog/%E7%94%B5%E5%AD%90%E6%B4%81%E7%99%96/</link>
+      <pubDate>Thu, 28 Mar 2024 06:14:13 +0800</pubDate>
+      <guid>http://localhost:1313/blog/%E7%94%B5%E5%AD%90%E6%B4%81%E7%99%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu安装记录</title>
+      <link>http://localhost:1313/blog/ubuntu%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ubuntu%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95/</guid>
+      <description>前言 本文为了 防止解决的问题在忘记解决方案时再出现 而撰写。&#xA;准备措施 这里采用 Ubuntu 23.10 Desktop 镜像版本，提供了图形化页面，可以根据自己的需求进行更换。&#xA;拔掉要安装设备的网线。&#xA;一个 U盘（U盘安装），大于等于 8G&#xA;最新版 Ubuntu 镜像（BT下载）&#xA;VMWare（虚拟机安装）&#xA;Rufus 4.3 (U盘烧录)&#xA;安装方式： 烧录 ISO U盘启动安装进硬盘 采用虚拟机直接安装进移动硬盘（Linux to Go） 虚拟机安装前置步骤 打开 VMware&#xA;1. 创建新虚拟机 -&amp;gt; 稍后安装系统 -&amp;gt; 选择Linux 版本 -&amp;gt; 选择位置 -&amp;gt; 一直默认到自定义硬件 2. CD / DVD -&amp;gt; 选择使用ISO映像文件 ，选中你的 ISO 3. USB 控制器 -&amp;gt; 兼容性 改为 3.1 完成，启动虚拟机。&#xA;U盘安装前置步骤 使用 Refus 刷入镜像进入 U盘 ， 调整 BIOS 为 U盘 启动&#xA;进入 Ubuntu 镜像烧录 进入镜像或者U盘启动后</description>
+    </item>
+  </channel>
+</rss>
